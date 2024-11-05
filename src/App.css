@@ -1,12 +1,20 @@
 /* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #e9ecef; /* Optional: light background color */
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px; /* Set a fixed width for the card */
+  width: 300px; /* Fixed width for the card */
   padding: 20px;
-  margin: auto;
   background-color: #f8f9fa;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
